@@ -1,0 +1,20 @@
+body {
+    background-color: darkorange;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: indianred;
+}
+
+header {
+    background-color: darkgoldenrod;
+}
+
+p {
+    color: indianred;
+}
+
+footer {
+    background-color: darkgoldenrod;
+}
