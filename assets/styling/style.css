@@ -268,7 +268,7 @@ img.center {
     background-color: var(--dark-background-2);
 }
 
-footer {
+#footer {
     padding: 4em 4em 2em 4em;
     background-image: url("/WebTechnologie-Portfolio/assets/media/Texture.png");
     background-repeat:repeat;
