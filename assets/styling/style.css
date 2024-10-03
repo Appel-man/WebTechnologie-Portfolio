@@ -110,7 +110,7 @@ a:hover, a:active {
 }
 
 
-#navigator {
+nav {
     top: 50%;
     transform: translateY(-50%);
     right: 10%;
@@ -120,14 +120,14 @@ a:hover, a:active {
     -ms-user-select: none;
 }
 
-.navigator-element, .navigator-element:visited, .navigator-element:link {
+nav a, nav a:visited, nav a:link {
     margin: 0 1em;
     font-family: Wellfleet;
     font-weight: bold;
     color: var(--medium-light-color);
 }
 
-.navigator-element:active, .navigator-element:hover {
+nav a:active, nav a:hover {
     text-decoration: none;
     color: var(--medium-dark-color);
 }
@@ -311,7 +311,7 @@ li {
 }
 
 @media only screen and (max-width: 790px)  {
-    #navigator {
+    nav {
         visibility: hidden;
     }
 }
