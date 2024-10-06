@@ -48,7 +48,7 @@ h2 {
 }
 
 strong,
-p {
+p, address {
     z-index: 10;
     color: var(--light-color);
     font-family: "Graduate0", sans-serif;
@@ -245,7 +245,6 @@ nav a:active, nav a:hover {
 .footer-wrapper-border {
     margin-top: 10em;
     padding-top: 3px;
-    position: relative;
     background: linear-gradient(90deg, var(--medium-dark-color), var(--light-color), var(--dark-color));
     background-size: 400% 400%;
     animation: glow 3s ease infinite;
