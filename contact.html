@@ -45,11 +45,28 @@
       <article class="section flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-lg-6">
           <h1 class=" m-0 fw-bold text-body-emphasis lh-1 mb-3">CONTACT GEGEVENS</h1>
-          <address class="lead">
-              E-mail address: <a href="mailto:example@gmail.com">example@gmail.com</a> <br>
-              GSM-nummer: 0123456789 <br>
-              Adress: straat 12 Belgie ...
-          </address>
+          <form class="lead" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <div class="form-group">
+              <label for="name">Naam:</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Onderwerp:</label>
+              <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Bericht:</label>
+              <textarea class="form-control" rows="10" id="message" name="message" required></textarea>
+            </div>
+            <div class="form-group">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Verzend</button>
+          </form>
           <section id="mapContainer" class="row">
             <div id="map" class="col-12 mb-3"></div>
           </section>
