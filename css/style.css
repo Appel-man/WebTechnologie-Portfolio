@@ -11,6 +11,10 @@ body {
     background-color: var(--dark-background);
 }
 
+#mapContainer {
+    height: 400px;
+}
+
 ::-moz-selection {
     color: var(--dark-color);
     background: var(--medium-light-color);
